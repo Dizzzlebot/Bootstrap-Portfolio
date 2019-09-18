@@ -1,8 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
+*border{
+    margin: 20px;
+    padding: 10px;
+}
+*navbar-brand{
+    background-color: aqua;
 }
 .header{
     height: 100px;
+}
+*li{
+    float: right;
+    padding: 20px;
+    margin: 10px;
+}
+*body{
+    background-image: url(images/background.png);
+    background-color: aqua;
+}
+.business {
+    width: 300px; max-width: 500px;
+    height: 325px;
+}
+
+.food  {
     
+    width: 300px; max-width: 500px;
+    height: 325px;
+    margin: 10px;
+    margin-right: 40px;
+}
+.nature{
+    margin: 0;
+    width: 300px; max-width: 500px;
+    height: 325px;
+}
+.nightlife{
+    float: top;
+    width: 300px; max-width: 500px;
+    height: 325px;
+}
+.message{
+    margin: 50px;
 }
